@@ -10,6 +10,7 @@ namespace Monkeys.Views
     {
         public MonkeysPage()
         {
+			System.Diagnostics.Debug.WriteLine(String.Format("Created MonkeyPage, Memory: {0}", GC.GetTotalMemory(true)));
             InitializeComponent();
             BindingContext = new MonkeysViewModel();
         }
@@ -25,6 +26,11 @@ namespace Monkeys.Views
 
 
         }
+
+		~MonkeysPage()
+		{
+			System.Diagnostics.Debug.WriteLine(String.Format("Destroyed MonkeyPage, Memory: {0}", GC.GetTotalMemory(true)));
+		}
     }
 }
 

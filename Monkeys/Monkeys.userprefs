@@ -1,10 +1,15 @@
-﻿<Properties StartupConfiguration="{88817254-C139-4DE4-B9A7-DA58A24337BE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.Monkeys.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+﻿<Properties StartupConfiguration="{AE9DDA08-AE58-46C1-B350-8C74526E6984}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Monkeys/Views/MonkeysPage.xaml.cs">
+    <Files>
+      <File FileName="Monkeys/Views/MonkeysPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Monkeys.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Monkeys.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8F040317-F375-4697-A60F-B07102AF8AB2" />
   <MultiItemStartupConfigurations />
 </Properties>

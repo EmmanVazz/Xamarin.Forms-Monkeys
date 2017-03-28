@@ -12,7 +12,9 @@
             <Button Text="How many monkeys?" x:Name="ButtonHowMany"/> 
 			<Label Margin="10,0"
 				    Text="{Binding MonkeyCount, StringFormat='{0} Monkeys'}"/>
-            <ListView ItemsSource="{Binding MonkeysGrouped}"
+            <ListView 
+					CachingStrategy="RecycleElement"
+					ItemsSource="{Binding MonkeysGrouped}"
 					ItemTapped="Handle_ItemTapped"
 					ItemSelected="Handle_ItemSelected"
                     HasUnevenRows="true"
